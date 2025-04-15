@@ -1,14 +1,25 @@
 Well...
-### VNE
+## VNE
 **VNE** is a VisualNovelEngine on C# and .NET 3.5... 
-VNE works with txt scripts, which supports those syntaxes:
-```
-define Генка Characters/gena.png
-show Генка default
-dialog Генка Салам! Я объебался соломкой с солью
-```
-As result you will get black background and gena.php on left side of scene, with dialog on bottom.
-Engine still in development.
+VNE is fully open source.
+## How to work with VNE?
+1. Clone the repo and open solution via Visual Studio 2022 with installed C# lang with .NET 3.5
+1.1 Compile the solution and put files from `sln_path/bin/release/` which called VisualNovelEngine.exe and .pdb into your game.
+2. Create in your game root two folders. Scritps and Characters.
+3. In script folder put file named intro.txt
+   **It will be your start script.**
+
+
+## VNE SCRIPT SYNTAXIS
+`define CharName Characters/char.png(jfif, jpg, jpeg)` - This will define your character's name and sprites.
+`dialog CharName normal Halo! im emu otori!!!` - Will show your char and dialogue: Halo! Im emu otori!
+`script load day1.txt` - Will load new script from your Scritps folder
+
+
+## That's all!
+
+VNE still in development and being developed from scratch.
+I would be thankful if you will notify me about bugs in Issue Tracker.
 </br>
 </br>
 </br>
