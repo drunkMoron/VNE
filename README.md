@@ -11,9 +11,9 @@ VNE is fully open source.
 
 
 ## VNE SCRIPT SYNTAXIS
-`define CharName Characters/char.png(jfif, jpg, jpeg)` - This will define your character's name and sprites.
-`dialog CharName normal Halo! im emu otori!!!` - Will show your char and dialogue: Halo! Im emu otori!
-`script load day1.txt` - Will load new script from your Scritps folder
+`define CharName Characters/char.png(jfif, jpg, jpeg)` - This will define your character's name and sprites.</br>
+`dialog CharName normal Halo! im emu otori!!!` - Will show your char and dialogue: Halo! Im emu otori!</br>
+`script load day1.txt` - Will load new script from your Scritps folder</br>
 
 
 ## That's all!
